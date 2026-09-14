@@ -1,0 +1,40 @@
+# Environment and secrets (keep sanitized examples)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build output and caches
+.next/
+out/
+dist/
+build/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+
+# Logs and local databases
+*.log
+*.sqlite
+*.sqlite3
+
+# OS and personal editor/agent configuration
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex/
+.agents/
